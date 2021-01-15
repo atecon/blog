@@ -3,6 +3,23 @@ languageCode = "en-us"
 title = "atecon's blog"
 theme = "m10c"
 
-[[params.social]]
-  name = "github"
-  url = "https://github.com/atecon"
+
+[params]
+  author = "Artur Tarassow"
+  description = "About projects and some kind of blog"
+  email = "atecon@posteo.de"
+  bio = "Economist, Data Scientist and developer"
+  #avatar: https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/atecon"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/atecon1"
+ [[params.social]]
+  name = "linkedIn"
+  url = ""
+
+
+
+
