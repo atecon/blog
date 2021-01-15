@@ -6,20 +6,57 @@ theme = "m10c"
 
 [params]
   author = "Artur Tarassow"
-  description = "About projects and some kind of blog"
+  description = "About my projects and so on..."
   email = "atecon@posteo.de"
   bio = "Economist, Data Scientist and developer"
-  #avatar: https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4
+  avatar = "https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4"
+  # mainSections = ["blog", "post"]
+  favicon             = false
+  svg                 = true
+  faviconVersion      = "1"
+
   [[params.social]]
     name = "github"
     url = "https://github.com/atecon"
+
   [[params.social]]
     name = "twitter"
     url = "https://twitter.com/atecon1"
- [[params.social]]
-  name = "linkedIn"
-  url = ""
+
+  [[params.social]]
+    name = "linkedIn"
+    url = ""
+
+  [[params.social]]
+    name = "stackoverflow"
+    url = ""
 
 
+
+
+#sectionPagesMenu = "main"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 2
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts"
+    weight = 3
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research"
+    #parent = "Research"
+    weight = 4
 
 
