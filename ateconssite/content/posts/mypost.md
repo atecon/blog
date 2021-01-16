@@ -1,11 +1,11 @@
 ---
-title: "Post title"
+title: "Test post"
 date: 2021-01-15T18:58:14+01:00
 ---
 
-## My first post
+## Test post
 
-Hi
+blablabla
 
 ```bash
 cd ...

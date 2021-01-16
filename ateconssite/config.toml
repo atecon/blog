@@ -6,9 +6,7 @@ theme = "m10c"
 
 [params]
   author = "Artur Tarassow"
-  description = "About my projects and so on..."
-  email = "atecon@posteo.de"
-  bio = "Economist, Data Scientist and developer"
+  description = "Economist, Data Scientist, Developer"
   avatar = "https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4"
   # mainSections = ["blog", "post"]
   favicon             = false
@@ -32,9 +30,7 @@ theme = "m10c"
     url = ""
 
 
-
-
-#sectionPagesMenu = "main"
+# sectionPagesMenu = "main"
 
 [menu]
   [[menu.main]]
@@ -44,7 +40,7 @@ theme = "m10c"
     weight = 1
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "About me"
     url = "/about"
     weight = 2
   [[menu.main]]
@@ -58,5 +54,8 @@ theme = "m10c"
     url = "/research"
     #parent = "Research"
     weight = 4
-
-
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
+    weight = 5
