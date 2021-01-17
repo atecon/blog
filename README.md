@@ -1,4 +1,5 @@
-# Howto
+# How-to build your Hugo static-website
+I have to say that it took me quite a while to set up [my homepage](https://atecon.github.io/).
 
 ## Run the web-server
 ```
