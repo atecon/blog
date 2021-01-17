@@ -37,14 +37,21 @@ to the the `./themes/layouts/_default/list.html` file as follows:
 {{ end }}
 ```
 
-## Run the web-server
+# Install Hugo on Ubuntu
+```bash
+sudo snap install hugo
 ```
+
+# Workflow
+
+## Run the web-server
+```bash
 cd ./blog/ateconssite
 hugo server
 ```
 
 ## Create a new thread
-```
+```bash
 cd ./blog/ateconssite
 hugo new <TYPE>/<FILENAME>.md
 ```
