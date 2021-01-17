@@ -66,6 +66,13 @@ For each type a sub-folder is created under ```./blog/ateconssite/content```
 
 The ```./blog/ateconssite/config.toml``` file configures the links to each content <TYPE>.
 
+## Deploy your changes
+```bash
+cd ./blog/ateconssite
+hugo -t  <THEMENAME>
+```
+My current <THEMENAME> is m10c.
+
 
 # References
 - Create a Hugo project: https://www.youtube.com/watch?v=LIFvgrRxdt4
