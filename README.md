@@ -71,7 +71,14 @@ The ```./blog/ateconssite/config.toml``` file configures the links to each conte
 cd ./blog/ateconssite
 hugo -t  <THEMENAME>
 ```
-My current <THEMENAME> is m10c.
+`-t` is just an option for a specific theme. My current <THEMENAME> is m10c.
+
+Next, we need to update the submodule repo:
+```bash
+cd ./blog/ateconssite/public    # enter the gihub.io relatively linked repo
+git add .
+git push                        # push to main on gihub.io relatively linked repo
+```
 
 
 # References
