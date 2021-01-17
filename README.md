@@ -24,4 +24,9 @@ The ```./blog/ateconssite/config.toml``` file configures the links to each conte
 
 
 # References
--
+- Create a hugo project: https://www.youtube.com/watch?v=LIFvgrRxdt4
+- On dir. structure: https://www.jakewiesler.com/blog/hugo-directory-structure
+- On dir. structure: https://bwaycer.github.io/hugo_tutorial.hugo/content/using-index-md/
+- https://youtu.be/0GZxidrlaRM
+- My template: https://fribbledom.com/
+
