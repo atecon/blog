@@ -2,3 +2,7 @@
 	path = ateconssite/public
 	url = git@github.com:atecon/atecon.github.io.git
 	branch = main
+[submodule "atecon/public"]
+	path = atecon/public
+	url = git@github.com:atecon/atecon.github.io.git
+	branch = main
