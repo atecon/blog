@@ -22,11 +22,15 @@ theme = "m10c"
     url = "https://twitter.com/atecon1"
 
   [[params.social]]
-    name = "linkedIn"
-    url = ""
+    name = "repec"
+    url = "https://ideas.repec.org/f/pta322.html"
 
   [[params.social]]
     name = "stackoverflow"
+    url = "https://stackoverflow.com/users/13028724/atecon"
+
+  [[params.social]]
+    name = "linkedIn"
     url = ""
 
 

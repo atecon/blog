@@ -21,3 +21,7 @@ For more see: https://gohugo.io/content-management/types/
 For each type a subfolder is created under ```./blog/ateconssite/content```
 
 The ```./blog/ateconssite/config.toml``` file configures the links to each content <TYPE>.
+
+
+# References
+-
