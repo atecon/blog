@@ -1,0 +1,4 @@
+[submodule "ateconssite/public"]
+	path = ateconssite/public
+	url = git@github.com:atecon/atecon.github.io.git
+	branch = main
