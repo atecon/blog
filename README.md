@@ -47,7 +47,7 @@ sudo snap install hugo
 ## Run the web-server
 ```bash
 cd ./blog/ateconssite
-hugo server
+hugo server -D  # -D for dynamic refreshing
 ```
 
 ## Create a new thread
@@ -75,9 +75,9 @@ hugo -t  <THEMENAME>
 
 Next, we need to update the submodule repo:
 ```bash
-cd ./blog/ateconssite/public    # enter the gihub.io relatively linked repo
+cd ./blog/ateconssite/public  # enter the gihub.io relatively linked repo
 git add .
-git push                        # push to main on gihub.io relatively linked repo
+git push                      # push to main on gihub.io relatively linked repo
 ```
 
 
