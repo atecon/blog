@@ -77,7 +77,8 @@ Next, we need to update the submodule repo:
 ```bash
 cd ./blog/ateconssite/public  # enter the gihub.io relatively linked repo
 git add .
-git push                      # push to main on gihub.io relatively linked repo
+git commit -m "SOME COMMIT MESSAGE"
+git push origin main          # push to main on gihub.io relatively linked repo
 ```
 
 
