@@ -46,7 +46,7 @@ sudo snap install hugo
 
 ## Run the web-server
 ```bash
-cd ./blog/ateconssite
+cd ./blog/atecon
 hugo server -D  # -D for dynamic refreshing
 ```
 
