@@ -68,14 +68,14 @@ The ```./blog/ateconssite/config.toml``` file configures the links to each conte
 
 ## Deploy your changes
 ```bash
-cd ./blog/ateconssite
+cd ./blog/atecon
 hugo -t  <THEMENAME>
 ```
 `-t` is just an option for a specific theme. My current <THEMENAME> is m10c.
 
 Next, we need to update the submodule repo:
 ```bash
-cd ./blog/ateconssite/public  # enter the gihub.io relatively linked repo
+cd ./blog/atecon/public  # enter the gihub.io relatively linked repo
 git add .
 git commit -m "SOME COMMIT MESSAGE"
 git push origin main          # push to main on gihub.io relatively linked repo
