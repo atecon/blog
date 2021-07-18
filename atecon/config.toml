@@ -1,37 +1,30 @@
 baseURL = "https://atecon.github.io/"
 languageCode = "en-us"
 title = "atecon's blog"
-theme = "contrast-hugo"
+theme = "blackburn"
+canonifyurls = true
+paginate = 8
+author = "Artur Tarassow"
+
+#[indexes]
+  #tag = "tags"
+  #topic = "topics"
 
 
 [params]
-  author = "Artur Tarassow"
+# Shown in the home page
+  subtitle = "atecon's blog"
+  brand = "atecon"
+  # googleAnalytics = "Your Google Analytics tracking ID"
   description = "Economist, Data Scientist, Developer"
   avatar = "https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4"
-  # mainSections = ["blog", "post"]
-  favicon             = false
-  svg                 = true
-  faviconVersion      = "1"
 
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/atecon"
 
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/atecon1"
-
-  [[params.social]]
-    name = "repec"
-    url = "https://ideas.repec.org/f/pta322.html"
-
-  [[params.social]]
-    name = "stackoverflow"
-    url = "https://stackoverflow.com/users/13028724/atecon"
-
-  [[params.social]]
-    name = "linkedIn"
-    url = ""
+[social]
+  github="atecon"
+  twitter="atecon1"
+  stackoverflow="https://stackoverflow.com/users/13028724/atecon"
+  xing="Artur_Tarassow"
 
 
 # sectionPagesMenu = "main"
