@@ -6,10 +6,9 @@ canonifyurls = true
 paginate = 8
 author = "Artur Tarassow"
 
-#[indexes]
-  #tag = "tags"
-  #topic = "topics"
-
+[taxonomies]
+   tag = "tags"
+   category = "categories"
 
 [params]
 # Shown in the home page
@@ -17,7 +16,7 @@ author = "Artur Tarassow"
   brand = "atecon"
   # googleAnalytics = "Your Google Analytics tracking ID"
   description = "Economist, Data Scientist, Developer"
-  avatar = "https://avatars2.githubusercontent.com/u/42611512?s=460&u=190e861586e4a701f33e755f51ec2b624d1788c1&v=4"
+
 
 
 [social]

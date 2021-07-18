@@ -52,7 +52,7 @@ hugo server -D  # -D for dynamic refreshing
 
 ## Create a new thread
 ```bash
-cd ./blog/ateconssite
+cd ./blog/atecon
 hugo new <TYPE>/<FILENAME>.md
 ```
 
@@ -62,9 +62,9 @@ As <TYPES> I distinguish between:
 
 For more see: https://gohugo.io/content-management/types/
 
-For each type a sub-folder is created under ```./blog/ateconssite/content```
+For each type a sub-folder is created under ```./blog/atecon/content```
 
-The ```./blog/ateconssite/config.toml``` file configures the links to each content <TYPE>.
+The ```./blog/atecon/config.toml``` file configures the links to each content <TYPE>.
 
 ## Deploy your changes
 ```bash
